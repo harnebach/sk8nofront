@@ -1,0 +1,50 @@
+.parallax  {
+		  /* Set a specific height */
+		  height: 90vh; 
+		  
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  display: flex; flex-direction: column;   justify-content: space-between;
+		  padding-bottom: 20px;
+		}
+
+
+.parallax2  {
+		  /* Set a specific height */
+		  height: 100vh; 
+		
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  display: flex; flex-direction: column;   justify-content: space-between;
+		  padding-bottom: 20px;
+		}
+		
+.parallax2 h1 {
+	font-size: 3rem;
+}		
+		.btn { padding: 0.075rem 0.75rem; }
+		.blTxt {position: relative;}
+		.blTxt .parData {position: absolute; right: 5%; top: 1%;}
+		.blTxt {font-size:1.2rem; text-shadow: 1px 1px #999;  padding: 1% 2%; background: #fff; margin: auto 2% 2%; width: 90%; max-width: 400px;  opacity: 0.8; border-radius: 20px;}
+		.blTxt p {margin: 0; padding:  0; opacity: 1; text-transform: uppercase; margin-bottom: 5px;}
+		.blTxt .boxBtn {flex-direction: row; justify-content: space-between;}
+		.blTxt a.vejaMais::after {content: " ]";}
+		.blTxt a.vejaMais::before {content: "[ ";}
+		.blTxt a.vejaMais { padding: 1%  5%; background: orange; color: #000; border-radius:  10px; text-decoration: none; font-size: .8rem; transition: 1s all;  }
+		.blTxt a.vejaMais:hover {background: #000; color: orange; text-shadow: none;}
+		
+
+		.blTxt a.next {text-decoration: none; transition: 1s all;  }
+		.blTxt a.next:hover {background: #000; color: #999; text-shadow: none;}
+
+		.blTxt a.prev {text-decoration: none; transition: 1s all; margin-right: 10px; }
+		.blTxt a.prev:hover {background: #000; color: #999; text-shadow: none;}
+

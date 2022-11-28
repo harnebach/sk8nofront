@@ -1,0 +1,42 @@
+<footer>
+      <div class="container">
+        <div class="row p-20px-b" >
+          <div class="col-4 d-flex flex-row justify-content-center align-items-center">
+            <a href="#home-section" title="Home"><img src="./assets/img/footer/logo.png"></a>
+          </div>
+          <div class="col-4">
+            <ul class="d-flex flex-column justify-content-center align-items-center">
+              <li class="active"><a href="#home-section" class="nav-link">Home</a></li>
+              <li><a href="#sobre-section" class="nav-link">Sobre</a></li>
+              <li><a href="#parceria-section" class="nav-link">Parceria</a></li>
+              <li><a href="#parallax-section" class="nav-link">Galeria</a></li>
+              <li><a href="#contato-section" class="nav-link">Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+              <a href="https://www.instagram.com/sk8nofront/" class="p-2 pl-0" target="_blank"><span class="icon-instagram color-black font-3r"></span></a>
+              <a href="https://www.facebook.com/sk8nofront" class="p-2 pl-0" target="_blank"><span class="icon-facebook color-black font-3r"></span></a>          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col color-white black-bg p-10px-tb copy">
+        <div class="font-12">2022&#169; Sk8NoFront</div>
+        <div class="font-16"><span class="icon-quote-left"></span> Sk8NoFront <spam class="icon-quote-right"></spam></div>
+        <div class="font-12">desenvolvido por <a href="https://wa.me/5511954678712" target="_blank" class="color-white font-w-600">Harnebach</a> - V.1</div>
+      </div>
+    </footer>
+
+     <script type="text/javascript">
+      //form textarea counter
+      var text_max = 1000;
+      $('#count_message').html('0 / ' + text_max );
+      
+      $('#exampleFormControlTextarea1').keyup(function() {
+        var text_length = $('#exampleFormControlTextarea1').val().length;
+        var text_remaining = text_max - text_length;
+        
+        $('#count_message').html(text_length + ' / ' + text_max);
+      });
+    </script>
